@@ -1,0 +1,33 @@
+https://www.saucedemo.com/
+
+login 
+        >>valid user-
+                type username
+                type password 
+                click login
+                navigate to products
+
+        >> invalid user-
+                errordisplayed
+
+Products
+        >> Logout-
+                click hamburger > Logout
+                navigate to login
+
+
+        >> Sort products by Price (low to high) -
+                click dropdown
+                select Sort
+                products sorted by Price
+
+        >> add multiple items
+                products > click multiple add to cart
+                all items added
+
+        >> Add product ‘Sauce Labs Onesie’ to shopping cart
+                Expected: Validate the correct product was added to the cart.
+
+
+        >> Complete a purchase
+                Expected: Validate the user navigates to the order confirmation page.

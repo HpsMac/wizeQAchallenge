@@ -1,0 +1,59 @@
+https://www.saucedemo.com/
+
+login 
+        >>valid user
+                type username
+                type password 
+                click login
+                navigate to products
+
+        >> invalid user
+                errordisplayed
+                        
+                        Accepted usernames are:
+                        standard_user
+                        locked_out_user
+                        problem_user
+                        performance_glitch_user           
+                        Password for all users:
+                        secret_sauce
+
+Products
+        >> Logout
+                click hamburger > Logout
+                navigate to login
+
+        >> shopping cart
+                click cart
+                navigate to shopping cart
+
+        >> add item
+                products > click add to cart
+                item added
+
+        >> add multiple items
+                products > click multiple add to cart
+                all items added
+
+ShoppingCart
+        click checkout
+        navigate to checkout
+
+Checkout
+        >> leave blank 
+                click continue
+                error msg
+
+        >> fill data 
+                type firstname
+                type lastname
+                type zip
+                click continue
+                navigate to overview
+
+overview
+        >> items match ordered
+        >> order items 
+                click finish
+                navigate to confirmation
+

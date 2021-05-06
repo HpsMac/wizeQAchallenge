@@ -1,0 +1,24 @@
+{
+  "name": "wizeqafront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/tests",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HpsMac/wizeQAFront.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HpsMac/wizeQAFront/issues"
+  },
+  "homepage": "https://github.com/HpsMac/wizeQAFront#readme"
+}
